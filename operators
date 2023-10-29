@@ -1,0 +1,145 @@
+/*ARITHMETIC OPERATORS
+
++ adds to a value, can also be used to concatenate strings
+- subtracts from a value
+* multiplies a value
+/ divides a value
+% finds the remainder after dividing 2 values
+**: Returns the exponentiation of the first value raised to the power of the second value (first introduced in ES2016).
+++: Returns the value incremented by 1.
+--: Returns the value decremented by 1.
+*/
+
+let sum = 5 + 5;
+console.log(sum);
+
+let nonsense = 123456 + 209384;
+console.log(nonsense);
+
+let remainder = 11 % 5;
+console.log(remainder);
+
+let power = 2 ** 2;
+console.log(power);
+
+//Value Incremented by 1
+let w = 5;
+w = w + 1;
+console.log(w);
+
+let g = 10;
+g++;
+console.log(g);
+
+
+
+
+
+
+
+//OTHER ASSINGMENT OPERATORS
+
+/*
++=: Adds and assigns a new value to a variable.
+-=: Subtracts and assigns a new value to a variable.
+*=: Multiplies and assigns a new value to a variable.
+/=: Divides and assigns a new value to a variable.
+%=: Assigns the returned remainder (modulo) as a new value to a variable.
+**=: Assigns the left operand raised to the power of the right operand.
+*/
+
+let m = 100;
+m += 1;
+console.log(m);
+
+let t = 100;
+t *= 20;
+console.log('I have', t, 'dollars.');
+
+//x = x*y
+
+let myRemainder = 23;
+myRemainder %= 2;
+console.log(myRemainder);
+
+//x = x % y : 23 % 1 = 
+
+
+
+
+
+
+
+//COMPARISON OPERATORS
+
+/*
+==: Returns true or false based on whether the value of two operands are equal.
+===: Returns true or false based on whether the value and type of two operands are equal.
+!=: Returns true or false based on whether the value of two operands are not equal.
+!==: Returns true or false based on whether the value and type of two operands are not equal.
+>: Returns true or false based on whether the first value is greater than the second value.
+<: Returns true or false based on whether the first value is less than the second value.
+>=: Returns true or false based on whether the first value is greater than or equal to the second value.
+<=: Returns true or false based on whether the first value is less than or equal to the second value.
+*/
+
+let operandOne = 23;
+let operandTwo = 25;
+console.log(operandOne == operandTwo);
+
+let operandThree = 23;
+const operandFour = "Richard";
+console.log(operandThree === operandFour);
+
+let operandFive = 45;
+let operandSix = 23;
+console.log(operandFive != operandSix);
+
+let op1 = 23;
+let op2 = 29;
+console.log(op1 >= op2);
+
+
+
+//Using typeof to find out what type of variables are in your code. 
+
+let newVariable = "I am a viking";
+
+console.log(typeof newVariable);
+
+newVariable = true;
+
+console.log(typeof newVariable);
+
+
+
+
+
+
+//LOGICAL OPERATORS
+
+/*
+&& (AND): Returns true if all operands evaluate to true.
+|| (OR): Returns true if one or more operands evaluate to true.
+! (NOT): Returns the logical opposite of an operand’s boolean value (i.e., !(true) returns false and !(false) returns true).
+*/
+
+let operandMe = true;
+let operandYou = false;
+console.log(operandMe && operandYou);
+
+let myDog = true;
+let yourDog = true;
+console.log(myDog && yourDog);
+
+let myCat = true;
+let yourCat = false;
+console.log(myCat || yourCat);
+
+
+//CONDITIONAL OPERATOR
+/*
+variable = condition 
+? assignedIfTrue 
+: assignedIfFalse;
+*/
